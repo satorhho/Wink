@@ -27,7 +27,7 @@ class EnterCarID extends StatelessWidget{
               child: TextField(
                 keyboardType: TextInputType.number,
                 decoration: InputDecoration(
-                    hintText: 'Username',
+                    hintText: 'Car ID',
                     border: OutlineInputBorder(),
                 ),
               ),

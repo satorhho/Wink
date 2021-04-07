@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'file:///C:/Users/Lance/Desktop/winkapp/lib/CarPages/wheelPage.dart';
 
 class CarMain extends StatelessWidget {
   @override
@@ -44,13 +45,13 @@ class CarMain extends StatelessWidget {
                         width: 125.0,
                         height: 50.0,
                         child: OutlineButton(
-                          child: Text('Login'),
-                          // borderSide: BorderSide(
-                          //   color: Colors.amber,
-                          //   style: BorderStyle.solid,
-                          //   width: 1.8,
-                          // ),
-                          onPressed: () {},
+                          child: Text('Wheels'),
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => WheelPage()),
+                            );
+                          },
                         ),
                       ),
 
