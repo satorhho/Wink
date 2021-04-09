@@ -1,17 +1,17 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class WheelSpecPage extends StatelessWidget {
+class EngineRevHisPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
         children: [
           Container(
-            margin: const EdgeInsets.only(top: 50, bottom: 40),
+            margin: const EdgeInsets.only(top: 50),
             alignment: Alignment.center,
             child: Text(
-              "Wheel Specifications",
+              "Wheel Revision History",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 25,
@@ -19,13 +19,14 @@ class WheelSpecPage extends StatelessWidget {
               ),
             ),
           ),
+
           Expanded(
             child: ListView(
-              padding: const EdgeInsets.only(left: 20, top: 50),
+              padding: const EdgeInsets.only(left: 10, top: 50),
               children: [
                 Container(
-                    child: Text(
-                    "Tire:    Michelin",
+                  child: Text(
+                    "Brand:		Changed to Stock(1/1/2020)",
                     style: TextStyle(
                       fontSize: 20,
                     ),
@@ -35,7 +36,7 @@ class WheelSpecPage extends StatelessWidget {
                 Container(
                   margin: const EdgeInsets.only(top: 20),
                   child: Text(
-                    "Rim:   Vossen",
+                    "Distributor:		Changed to Stock(21/2/2021)",
                     style: TextStyle(
                       fontSize: 20,
                     ),
@@ -45,7 +46,7 @@ class WheelSpecPage extends StatelessWidget {
                 Container(
                   margin: const EdgeInsets.only(top: 20),
                   child: Text(
-                    "Type:   Tubeless",
+                    "EMG:		Changed to Stock(21/2/2021)",
                     style: TextStyle(
                       fontSize: 20,
                     ),
@@ -55,7 +56,7 @@ class WheelSpecPage extends StatelessWidget {
                 Container(
                   margin: const EdgeInsets.only(top: 20),
                   child: Text(
-                    "Tire Color:    Black",
+                    "Engine:			Changed to Stock(20/2/2021)",
                     style: TextStyle(
                       fontSize: 20,
                     ),
@@ -65,7 +66,7 @@ class WheelSpecPage extends StatelessWidget {
                 Container(
                   margin: const EdgeInsets.only(top: 20),
                   child: Text(
-                    "Rim Color:   White",
+                    "Water Pump:		Changed to Stock(18/2/2021)",
                     style: TextStyle(
                       fontSize: 20,
                     ),
@@ -75,12 +76,13 @@ class WheelSpecPage extends StatelessWidget {
                 Container(
                   margin: const EdgeInsets.only(top: 20),
                   child: Text(
-                    "Bolts:   Shimano",
+                    "Cylinder:		Changed to Stock(10/2/2021)",
                     style: TextStyle(
                       fontSize: 20,
                     ),
                   ),
                 ),
+
               ],
             ),
           )
@@ -88,4 +90,5 @@ class WheelSpecPage extends StatelessWidget {
       ),
     );
   }
+
 }

@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class WheelSpecPage extends StatelessWidget {
+class PSSpecPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -11,7 +11,7 @@ class WheelSpecPage extends StatelessWidget {
             margin: const EdgeInsets.only(top: 50, bottom: 40),
             alignment: Alignment.center,
             child: Text(
-              "Wheel Specifications",
+              "Power Supply Specifications",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 25,
@@ -24,8 +24,8 @@ class WheelSpecPage extends StatelessWidget {
               padding: const EdgeInsets.only(left: 20, top: 50),
               children: [
                 Container(
-                    child: Text(
-                    "Tire:    Michelin",
+                  child: Text(
+                    "Brand:    Motolite",
                     style: TextStyle(
                       fontSize: 20,
                     ),
@@ -35,7 +35,7 @@ class WheelSpecPage extends StatelessWidget {
                 Container(
                   margin: const EdgeInsets.only(top: 20),
                   child: Text(
-                    "Rim:   Vossen",
+                    "Type:   SLI",
                     style: TextStyle(
                       fontSize: 20,
                     ),
@@ -45,7 +45,7 @@ class WheelSpecPage extends StatelessWidget {
                 Container(
                   margin: const EdgeInsets.only(top: 20),
                   child: Text(
-                    "Type:   Tubeless",
+                    "Type:   Tubeles",
                     style: TextStyle(
                       fontSize: 20,
                     ),
@@ -55,7 +55,7 @@ class WheelSpecPage extends StatelessWidget {
                 Container(
                   margin: const EdgeInsets.only(top: 20),
                   child: Text(
-                    "Tire Color:    Black",
+                    "Wattage:    2000",
                     style: TextStyle(
                       fontSize: 20,
                     ),
@@ -65,7 +65,7 @@ class WheelSpecPage extends StatelessWidget {
                 Container(
                   margin: const EdgeInsets.only(top: 20),
                   child: Text(
-                    "Rim Color:   White",
+                    "Capacity[mAh]:   3000",
                     style: TextStyle(
                       fontSize: 20,
                     ),
@@ -75,7 +75,7 @@ class WheelSpecPage extends StatelessWidget {
                 Container(
                   margin: const EdgeInsets.only(top: 20),
                   child: Text(
-                    "Bolts:   Shimano",
+                    "Cycles:   20",
                     style: TextStyle(
                       fontSize: 20,
                     ),

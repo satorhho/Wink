@@ -1,6 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:winkapp/CarPages/cvPage.dart';
+import 'CarPages/TPUPage.dart';
+import 'CarPages/enginePage.dart';
 import 'file:///C:/Users/Lance/Desktop/winkapp/lib/CarPages/wheelPage.dart';
+import 'file:///C:/Users/Lance/Desktop/winkapp/lib/CarPages/psPage.dart';
 
 class CarMain extends StatelessWidget {
   @override
@@ -61,8 +65,12 @@ class CarMain extends StatelessWidget {
                         height: 50.0,
                         child: OutlineButton(
                           child: Text('Engine'),
-
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => EnginePage()),
+                            );
+                          },
                         ),
                       ),
 
@@ -72,12 +80,12 @@ class CarMain extends StatelessWidget {
                         height: 50.0,
                         child: OutlineButton(
                           child: Text('TPU'),
-                          // borderSide: BorderSide(
-                          //   color: Colors.amber,
-                          //   style: BorderStyle.solid,
-                          //   width: 1.8,
-                          // ),
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => TPUPage()),
+                            );
+                          },
                         ),
                       ),
                     ],
@@ -90,12 +98,12 @@ class CarMain extends StatelessWidget {
                         height: 50.0,
                         child: OutlineButton(
                           child: Text('Power Supply'),
-                          // borderSide: BorderSide(
-                          //   color: Colors.amber,
-                          //   style: BorderStyle.solid,
-                          //   width: 1.8,
-                          // ),
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => PSPage()),
+                            );
+                          },
                         ),
                       ),
                       Container(
@@ -104,12 +112,12 @@ class CarMain extends StatelessWidget {
                         height: 50.0,
                         child: OutlineButton(
                           child: Text('Computer Vision'),
-                          // borderSide: BorderSide(
-                          //   color: Colors.amber,
-                          //   style: BorderStyle.solid,
-                          //   width: 1.8,
-                          // ),
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => CVPage()),
+                            );
+                          },
                         ),
                       ),
                       Container(
@@ -118,11 +126,7 @@ class CarMain extends StatelessWidget {
                         height: 50.0,
                         child: OutlineButton(
                           child: Text('Others'),
-                          // borderSide: BorderSide(
-                          //   color: Colors.amber,
-                          //   style: BorderStyle.solid,
-                          //   width: 1.8,
-                          // ),
+
                           onPressed: () {},
                         ),
                       ),
