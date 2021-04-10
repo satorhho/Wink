@@ -31,7 +31,7 @@ class CVPage extends StatelessWidget{
           ),
 
           Container(
-              margin: const EdgeInsets.only(top: 50),
+              margin: const EdgeInsets.only(top: 20),
               alignment: Alignment.center,
               child: Image.asset(
                 "images/neuralnet_icon.png",

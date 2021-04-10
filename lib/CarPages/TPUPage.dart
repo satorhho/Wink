@@ -36,7 +36,7 @@ class TPUPage extends StatelessWidget{
               child: Image.asset(
                 "images/tpu_icon.png",
                 fit: BoxFit.contain,
-                width: 300,
+                width: 280,
               )
           ),
 

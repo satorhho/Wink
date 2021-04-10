@@ -31,17 +31,17 @@ class PSPage extends StatelessWidget{
           ),
 
           Container(
-              margin: const EdgeInsets.only(top: 50),
+              margin: const EdgeInsets.only(top: 70),
               alignment: Alignment.center,
               child: Image.asset(
                 "images/ps_icon.png",
                 fit: BoxFit.contain,
-                width: 290,
+                width: 250,
               )
           ),
 
           Container(
-            margin: const EdgeInsets.only(top: 50),
+            margin: const EdgeInsets.only(top: 60),
             width: 200.0,
             height: 70.0,
             child: OutlineButton(
