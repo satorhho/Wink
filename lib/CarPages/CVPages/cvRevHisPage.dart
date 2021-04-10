@@ -35,7 +35,7 @@ class CVRevHisPage extends StatelessWidget {
               width: 250.0,
               height: 80.0,
               child: OutlineButton(
-                child: Text('View Source Code'),
+                child: Text('View Merges'),
                 onPressed: () {},
               ),
             ),

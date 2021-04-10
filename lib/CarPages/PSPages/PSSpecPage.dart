@@ -45,16 +45,6 @@ class PSSpecPage extends StatelessWidget {
                 Container(
                   margin: const EdgeInsets.only(top: 20),
                   child: Text(
-                    "Type:   Tubeles",
-                    style: TextStyle(
-                      fontSize: 20,
-                    ),
-                  ),
-                ),
-
-                Container(
-                  margin: const EdgeInsets.only(top: 20),
-                  child: Text(
                     "Wattage:    2000",
                     style: TextStyle(
                       fontSize: 20,
