@@ -53,7 +53,7 @@ class CVLoginPage extends StatelessWidget {
                 Container(
                   alignment: Alignment.topLeft,
                   margin: const EdgeInsets.only(left: 20),
-                  child: Text("git config --global user.name \"<email>\""),
+                  child: Text("git config --global user.email \"<email>\""),
                 ),
                 Container(
                   margin: const EdgeInsets.all(20),
@@ -89,11 +89,11 @@ class CVLoginPage extends StatelessWidget {
           ),
 
           Container(
-            width: 100,
+            width: 120,
             height: 50,
             margin: const EdgeInsets.only(bottom: 40),
             child: OutlineButton(
-              child: Text("SUBMIT"),
+              child: Text("CHECKOUT"),
               highlightColor: Colors.white38,
               onPressed: () {
               },
