@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:winkapp/CarPages/WheelPages/wheelAnalytics.dart';
 
 class CVSpecPage extends StatelessWidget {
   @override
@@ -54,13 +55,14 @@ class CVSpecPage extends StatelessWidget {
 
                 Container(
                   margin: const EdgeInsets.only(left: 20, right: 35, top: 100),
-                  //width: 100.0,
+                  width: 200.0,
                   height: 80.0,
                   child: OutlineButton(
                     child: Text('View Source Code'),
                     onPressed: () {},
                   ),
                 ),
+
 
               ],
             ),

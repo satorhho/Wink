@@ -83,7 +83,6 @@ class WheelPage extends StatelessWidget{
             ),
           ),
 
-
         ],
       ),
     );

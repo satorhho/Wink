@@ -3,6 +3,7 @@ import 'package:winkapp/CarPages/EnginePages/engineModifyPage.dart';
 import 'package:winkapp/CarPages/EnginePages/engineRevHisPage.dart';
 import 'package:winkapp/CarPages/PSPages/PSRevHisPage.dart';
 import 'package:winkapp/CarPages/PSPages/PSSpecPage.dart';
+import 'package:winkapp/CarPages/WheelPages/wheelAnalytics.dart';
 import 'package:winkapp/login.dart';
 
 import 'CarPages/CVPages/cvLoginpage.dart';
@@ -37,6 +38,7 @@ class winkApp extends StatelessWidget{
       home: Login(),
       //home: WheelPage(),
       //home: WheelSpecPage(),
+      //home: WheelAnalytics(),
       //home: WheelRevHisPage(),
       //home: WheelModifyPage(),
       //home: PSPage(),

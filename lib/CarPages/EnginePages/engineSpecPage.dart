@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:winkapp/CarPages/WheelPages/wheelAnalytics.dart';
 
 class EngineSpecPage extends StatelessWidget {
   @override
@@ -89,6 +90,21 @@ class EngineSpecPage extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 20,
                     ),
+                  ),
+                ),
+
+                Container(
+                  margin: const EdgeInsets.only(top: 50, right: 20),
+                  width: 200.0,
+                  height: 70.0,
+                  child: OutlineButton(
+                    child: Text('Modify'),
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => WheelAnalytics()),
+                      );
+                    },
                   ),
                 ),
               ],
